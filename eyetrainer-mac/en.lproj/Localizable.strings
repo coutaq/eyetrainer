@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% Vision";
+"app_share_results"=" Share results";
+"app_on_twitter"=" on Twitter";
+"app_on_facebook"=" on Facebook";
+"app_tweet"="My current progress is ";
+"app_facebook"="My current progress is ";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="days";
+"app_day"="day";
+"app_days_234_ru"="";
+"app_notification_today"="Its time to take another session";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Start";
+"mv_session"="session";
+"mv_help"="How to use";
+"mv_look_after"="Look after your eyesight daily and reach 100%";
+"mv_reach_100"="Great job ! You reached 100%";
+"mv_today"="Today";
+"mv_history_app_launch"="Launching app today";
+"mv_history_share_on_twitter"="Sharing via twitter";
+"mv_history_share_on_facebook"="Sharing via facebook";
+"mv_history_finishing_session"="Finishing session";
+"mv_history_skipped"="Skipping exercises";
+"mv_hint_help"="Tap here to check";
+"mv_feedback"="Feedback";
+"mv_reminder"="Reminder";
+"mv_trial_left"="Trial: %s left";
+"mv_trial_expired"="Buy the full version. \nThe care for your eyesight is only %@";
+"mv_trial_get_full"="Buy";
+"mv_requesting_product"="Connecting the App Store";
+"mv_processing_purchase"="Inquiring for product from App Store";
+"mv_restoring_transaction"="Transaction recovery in App Store";
+"mv_product_request_failed"="Failed to connect the App Store";
+"mv_purchase_successful"="Thank you for buying the full version of 100% Vision!";
+"mv_purchases_unaviable"="This device is not configured for making purchases";
+"mv_network_unaviable"="Connect the Internet to watch the video";
+"mv_purchase_app"="You have one day to try the application for free. Have you felt the effect? Buy the full version for further usage and keep your eyes healthy.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Video";
+"hv_close"="Close";
+"hv_title"="How to use";
+"hv_info"="“100% Vision” app normalizes eye accommodation (our ability to focus on an object, regardless of its distance from us). Exercises used in the program remove eye strain.\nThe app is recommended for prevention of myopia and presbyopia (short- and long-sightedness) and accommodation relaxation for people working with visual display units.";
+"hv_pose"="Sit\ncomfortably";
+"hv_remove_glasses"="remove glasses\nor lenses";
+"hv_ipad_one"="Hold Mac\nlevel with your eyes";
+"hv_ipad_two"="80-100 cm";
+"hv_ipad_three"="away";
+"hv_button_one"="Press";
+"hv_button_two"="start";
+"hv_button_three"="each session lasts about\n5 minutes";
+"hv_eyes"="Don't focus on the screen. Relax your eyes.\nIf your screen is too bright please go to the Settings and adjust brightness to comfortable level.";
+"hv_disclaimer_title"="Disclaimer";
+"hv_disclaimer"="The impact of eye accommodation changes diminishes within 1 – 1.5 months after cessation of exercises.";
+"hv_best_result"="For continuous improvement ensure that you exercise daily.";
+"hv_restrictions"="If you experience any adverse effects – stop using the app. Do not use the app if you suffer from persistent or chronic neurogenic spasms and/or if have a history of epileptiform seizures.";
+"hv_how_it_works_title"="How it works";
+"hv_how_it_works_1"="Visual effect of moving inside tunnel relaxes and strains eye accommodation using periodic pattern.";
+"hv_how_it_works_2"="Squares and rhombus animation trains eye muscles. You might feel your eyes converge and diverge while watching. ";
+"hv_how_it_works_3"="Water surface illusion relaxes eye accommodation. Your extraocular muscles are “warming up” when eyes follow smooth movements of the wave.";
+"hv_how_it_works_4"="Eye accommodation is our ability to focus on an object regardless of its distance from us.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Congratulations!\nYou have completed the exercise.";
+"afv_you_earned"="You scored";
+"afv_you_have"="Your total is";
+"afv_home"="Home";
+
+//  ERR – Errors
+
+"err_template"="An error occurred №%d.";
+"err_unknown"="Unknown error.";

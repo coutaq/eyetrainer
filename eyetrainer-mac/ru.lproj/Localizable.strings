@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% Vision";
+"app_share_results"="Поделиться результатами";
+"app_on_twitter"="в Twitter";
+"app_on_facebook"="в Facebook";
+"app_tweet"="Мой текущий результат ";
+"app_facebook"="Мой текущий результат ";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="дней";
+"app_day"="день";
+"app_days_234_ru"="дня";
+"app_notification_today"="Пора пройти очередной сеанс";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Начать";
+"mv_session"="сеанс";
+"mv_help"="Как пользоваться";
+"mv_look_after"="Заботьтесь о своем зрении каждый день и наберите 100%";
+"mv_reach_100"="Отличная работа ! Вы набрали 100%";
+"mv_today"="Сегодня";
+"mv_history_app_launch"="Запуск приложения";
+"mv_history_share_on_twitter"="Пост в Twitter";
+"mv_history_share_on_facebook"="Пост в Facebook";
+"mv_history_finishing_session"="Выполнение сеанса";
+"mv_history_skipped"="Пропуск занятий";
+"mv_hint_help"="Нажмите сюда чтобы увидеть";
+"mv_feedback"="Обратная связь";
+"mv_reminder"="Напоминание";
+"mv_trial_left"="Пробная версия:\nОсталось %s";
+"mv_trial_expired"="Купите полную версию. \nЗабота о вашем зрении стоит всего %@";
+"mv_trial_get_full"="Купить";
+"mv_requesting_product"="Установка связи с AppStore";
+"mv_processing_purchase"="Запрос продукта в AppStore";
+"mv_restoring_transaction"="Восстановление транзакции в AppStore";
+"mv_product_request_failed"="Ошибка при установке связи с AppStore";
+"mv_purchase_successful"="Спасибо за покупку полной версии 100% Vision!";
+"mv_purchases_unaviable"="Данное устройство не настроено для совершения покупок.";
+"mv_network_unaviable"="Подключитесь к Интернету чтобы просмотреть видео";
+"mv_purchase_app"="У Вас есть один день для бесплатной пробы приложения. Ощутили эффект? Купите полную версию для дальнейшего пользвания и сохраните ваши глаза здоровыми.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Видео";
+"hv_close"="Закрыть";
+"hv_title"="Как пользоваться";
+"hv_info"="Приложение \"100% Vision\" оказывает нормализующее действие на аккомодацию (механизм, позволяющий нам фокусироваться на предмете, независимо от его расстояния до нашего глаза). Используемые в программе стимулы выводят аккомодацию из фиксированного напряженного состояния.\nПрограмма рекомендуется для профилактики детской миопии, пресбиопии и для разгрузки аккомодации при работе с компьютером.\nЕсли вы пользуетесь очками или контактными линзами, перед сеансом их необходимо снять.\n";
+"hv_pose"="Сядьте\nпоудобнее";
+"hv_remove_glasses"="снимите очки\nили линзы";
+"hv_ipad_one"="Разместите Mac\nна уровне глаз";
+"hv_ipad_two"="на расстоянии";
+"hv_ipad_three"="80-100 см";
+"hv_button_one"="Нажмите";
+"hv_button_two"="запуск";
+"hv_button_three"="сеанс занимает\n5 минут";
+"hv_eyes"="Не нужно фокусировать взгляд на экране, достаточно расслабить зрение.\nЕсли экран слишком якрий отрегулируйте яркость в Настройках до комфортного уровня.";
+"hv_disclaimer_title"="Внимание !";
+"hv_disclaimer"="Изменения параметров аккомодации, обусловленные тренировками с программой, не являются стойкими и в значительной степени утрачиваются через 1 - 1 , 5 месяца после прекращения тренировок.";
+"hv_best_result"="Для сохранения же положительных сдвигов ежедневные занятия следует продолжать все время, пока сохраняются зрительные нагрузки.";
+"hv_restrictions"="В случае появления отрицательных результатов достаточно просто прекратить  занятия с программой. Противопоказанием к применению программы \"100% Vision\" может быть стойкий неврогенный спазм аккомодации, а также склонность к эпилептиформным припадкам.";
+"hv_how_it_works_title"="Как это работает";
+"hv_how_it_works_1"="Визуальный эффект движения по туннелю то в одну, то в другую сторону провоцирует скачки аккомодации как в сторону расслабления, так и в сторону напряжения.";
+"hv_how_it_works_2"="Анимация переливающихся ромбов и квадратов тренирует глазные мышцы. Во время просмотра вы почувствуете, как ваши глаза начинают сходиться и расходиться.";
+"hv_how_it_works_3"="Иллюзия водной поверхности расслабляет аккомодацию.  Плавные движения заставляют совершать прослеживающие  движения, \"разминая\" глазодвигательные мышцы.";
+"hv_how_it_works_4"="Аккомодация - это механизм, позволяющий нам фокусироваться на предмете, независимо от его расстояния до нашего глаза.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Поздравляем с успешно завершенной тренировкой!";
+"afv_you_earned"="Вы набрали";
+"afv_you_have"="Всего у вас";
+"afv_home"="Главная";
+
+//  ERR – Errors
+
+"err_template"="Произошла ошибка №%d.";
+"err_unknown"="Неизвестная ошибка.";

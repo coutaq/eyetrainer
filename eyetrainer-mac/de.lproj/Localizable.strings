@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% Vision";
+"app_share_results"="Die Ergebnisse teilen";
+"app_on_twitter"="Twitter";
+"app_on_facebook"="Facebook";
+"app_tweet"="Mein Ergebniss ";
+"app_facebook"="Mein Ergebniss ";
+"app_sharing_reward"="";
+"app_points"="%";
+"app_point"="%";
+"app_days"="Tage";
+"app_day"="Tag";
+"app_days_234_ru"="";
+"app_notification_today"="Jetzt ist es Zeit die nächste Übung für heute zu machen";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Start";
+"mv_session"="die Sitzung";
+"mv_help"="Verwendung der App";
+"mv_look_after"="Kümmern Sie sich um Ihr Sehevermögen jeden Tag und erreichen Sie 100%";
+"mv_reach_100"="Gut gemacht! 100% erreicht!";
+"mv_today"="Heute";
+"mv_history_app_launch"="Die App heute starten";
+"mv_history_share_on_twitter"="Twittern";
+"mv_history_share_on_facebook"="auf Facebook posten";
+"mv_history_finishing_session"="Sitzung beenden";
+"mv_history_skipped"="Übung auslassen";
+"mv_hint_help"="Hier klicken um zu sehen";
+"mv_feedback"="Rückkopplung";
+"mv_reminder"="Mahnung";
+"mv_trial_left"="Testzeit: noch %s";
+"mv_trial_expired"="Kaufen Sie die Vollversion. \nDie Sorge für die Pflege Ihrer Sehekraft kostet nur  %@";
+"mv_trial_get_full"="Kaufen";
+"mv_requesting_product"="Verbindung zum App Store";
+"mv_processing_purchase"="Produkt Erkundigung aus dem App Store";
+"mv_restoring_transaction"="Wiederherstellung von Transaktionen im App Store";
+"mv_product_request_failed"=" Verbindung mit App Store nicht möglich";
+"mv_purchase_successful"="Danke für den Kauf der Vollversion von 100% Vision!";
+"mv_purchases_unaviable"="Dieses Gerät ist für Einkäufe nicht konfiguriert";
+"mv_network_unaviable"="Bitte Internetverbindung herstellen, um das Video zu sehen";
+"mv_purchase_app"=" Sie haben einen Tag für die Gratisprobe. Haben Sie die Wirkung verspürt? Kaufen Sie die Vollversion für die weitere Verwendung und erhalten Sie Ihre Augen gesund";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Video";
+"hv_close"="Schließen";
+"hv_title"="Verwendung der App";
+"hv_info"="Die \"100% Vision\" App normalisiert die Augenakkomodation (Fähigkeit des Auges sich auf die Gegenstände zu fokussieren unabhängig von deren Entfernung). Die in App benutzen Übungen entspannen die Augen. Die App ist als Myopie-, Presbyopievorsorge und auch als Akkomodationsentspannung für die mit den Bildschirmen arbeitenden Personen zu empfehlen. Falls Sie eine Brille oder Kontaktlinsen tragen, setzen Sie diese bitte ab.";
+"hv_pose"="Setzen Sie\nsich bequem";
+"hv_remove_glasses"="Setzen Sie Ihre Brille ab oder nehmen\nSie Ihre Kontaktlinsen heraus";
+"hv_ipad_one"="Platzieren Sie das Mac\nauf der Augenhöhe";
+"hv_ipad_two"="80-100cm";
+"hv_ipad_three"="entfernt";
+"hv_button_one"="Klick";
+"hv_button_two"="start";
+"hv_button_three"="die Übung dauert\n5 Minuten";
+"hv_eyes"="Konzentrieren Sie sich nicht auf den Bildschirm. Entspannen Sie Ihre Augen.\nWenn das Display zu hell ist, passen Sie die Helligkeit in den Einstellungen an.";
+"hv_disclaimer_title"="Bitte beachten!";
+"hv_disclaimer"="Die Akkomodationsergebnisse können sich nach 1-1,5 Monaten verschlechtern, falls Sie mit den Übungen aufhören. ";
+"hv_best_result"="Um die positive Entwicklung jedoch zu behalten, setzen Sie die Übungen fort so lange die Augenbelastung besteht.";
+"hv_restrictions"="Im Falle der negativen Entwicklung hören Sie bitte auf  mit der App zu arbeiten. Benutzen Sie bitte die \"100% Vision\"- App nicht, wenn Sie an dauernden oder chronischen neurogenen Krampf leiden, oder zu den epileptischen Anfällen sich neigen. ";
+"hv_how_it_works_title"="Wie funktioniert es?";
+"hv_how_it_works_1"="Der optischer Effekt von der Bewegung in einer Tunnel nach einer periodischen Schema verursacht beides: Spannung und Entspannung der Akkomodation. ";
+"hv_how_it_works_2"="Die Rhombus- und Quadratanimationen trainieren Ihre Augen. Während der Übung merken Sie, wie Ihre Augen sich fokussieren und defokussieren.";
+"hv_how_it_works_3"="Wasserspiegelillusion entspannt die Akkomodation. Die weiche Wasserbewegungen zwingen Ihre Augen die Verfolgungsbewegungen zu machen, somit werden die Augensmuskeln aufgewärmt.";
+"hv_how_it_works_4"="Unter Akkomodation versteht man die Fähigkeit des Auges sich auf die Gegenstände zu fokussieren unabhängig von deren Entfernung";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Herzlichen Glückwunsch!\nSie haben die Übung beendet.";
+"afv_you_earned"="Sie erzielte";
+"afv_you_have"="Ihre Summe ist";
+"afv_home"="Zuhause";
+
+//  ERR – Errors
+
+"err_template"="Ein Fehler ist aufgetreten №%d.";
+"err_unknown"="Unbekannter Fehler.";

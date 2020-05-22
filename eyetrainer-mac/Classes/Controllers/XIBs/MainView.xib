@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="btnFeedback" destination="276" id="318"/>
+                <outlet property="btnHelp" destination="296-bZ-O9u" id="cJM-pS-6Km"/>
+                <outlet property="btnReminder" destination="Rx9-sX-AEP" id="g0Q-zW-p74"/>
+                <outlet property="btnStart" destination="11" id="314"/>
+                <outlet property="lblCare" destination="W3H-t1-ezB" id="mYx-H7-Qcv"/>
+                <outlet property="lblSubStart" destination="7R5-uo-2i6" id="vHF-sd-ywA"/>
+                <outlet property="lblUsage" destination="uQz-p3-d8e" id="xf6-FK-lSy"/>
+                <outlet property="view" destination="1" id="147"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="1">
+            <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AYq-Zj-KzL">
+                    <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="Default-Landscape~ipad" id="tNZ-Nz-fkK"/>
+                </imageView>
+                <button identifier="btnStart" focusRingType="none" translatesAutoresizingMaskIntoConstraints="NO" id="11">
+                    <rect key="frame" x="285" y="158" width="230" height="280"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="280" id="DPR-A0-sg5"/>
+                        <constraint firstAttribute="width" constant="230" id="gRC-Dp-iOv"/>
+                    </constraints>
+                    <buttonCell key="cell" type="bevel" title="START FFF" bezelStyle="rounded" image="btn_start_normal" imagePosition="above" alignment="center" alternateImage="btn_start_pressed" focusRingType="none" identifier="btnStart" imageScaling="proportionallyUpOrDown" inset="2" id="13">
+                        <behavior key="behavior" lightByContents="YES"/>
+                        <font key="font" size="30" name="HelveticaNeue-Medium"/>
+                        <connections>
+                            <action selector="start:" target="-2" id="341"/>
+                        </connections>
+                    </buttonCell>
+                </button>
+                <button identifier="btnFeedback" focusRingType="none" translatesAutoresizingMaskIntoConstraints="NO" id="276">
+                    <rect key="frame" x="20" y="20" width="150" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="6HH-8j-vcI"/>
+                        <constraint firstAttribute="width" constant="150" id="tpj-D4-roB"/>
+                    </constraints>
+                    <buttonCell key="cell" type="bevel" title="Feedback" bezelStyle="regularSquare" image="btnNormal" imagePosition="overlaps" alignment="center" alternateImage="btnPressed" focusRingType="none" imageScaling="axesIndependently" inset="2" id="278">
+                        <behavior key="behavior" lightByContents="YES"/>
+                        <font key="font" metaFont="system" size="19"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="feedback:" target="-2" id="357"/>
+                    </connections>
+                </button>
+                <button identifier="btnReminder" focusRingType="none" translatesAutoresizingMaskIntoConstraints="NO" id="Rx9-sX-AEP">
+                    <rect key="frame" x="325" y="20" width="150" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="BgS-4l-d4J"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" title="Reminder" bezelStyle="shadowlessSquare" image="btnNormal" imagePosition="overlaps" alignment="center" alternateImage="btnPressed" focusRingType="none" imageScaling="axesIndependently" inset="2" id="lcR-OP-qSN">
+                        <behavior key="behavior" lightByContents="YES"/>
+                        <font key="font" metaFont="system" size="19"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="showReminder:" target="-2" id="fvv-Fo-jTu"/>
+                    </connections>
+                </button>
+                <button identifier="btnHelp" focusRingType="none" translatesAutoresizingMaskIntoConstraints="NO" id="296-bZ-O9u">
+                    <rect key="frame" x="630" y="20" width="150" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="InG-M0-HXa"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" title="Help" bezelStyle="shadowlessSquare" image="btnNormal" imagePosition="overlaps" alignment="center" alternateImage="btnPressed" focusRingType="none" imageScaling="axesIndependently" inset="2" id="fgP-4D-q5i">
+                        <behavior key="behavior" lightByContents="YES"/>
+                        <font key="font" metaFont="system" size="19"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="showHelp:" target="-2" id="NLz-BQ-Ero"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uQz-p3-d8e">
+                    <rect key="frame" x="100" y="511" width="600" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="zDY-Lc-uvv"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="usage" id="SeE-u0-u0b">
+                        <font key="font" metaFont="system" size="30"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="W3H-t1-ezB">
+                    <rect key="frame" x="100" y="469" width="600" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="xdi-JN-t12"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" alignment="center" title="Care FF" id="roC-HP-pAN">
+                        <font key="font" metaFont="system" size="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7R5-uo-2i6">
+                    <rect key="frame" x="200" y="125" width="400" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="QEv-Y8-GOf"/>
+                        <constraint firstAttribute="width" constant="396" id="xLJ-iX-MMz"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="subStart fffffff" id="aI1-M4-J05">
+                        <font key="font" metaFont="system" size="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button identifier="btnHelp" focusRingType="none" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S2A-bt-eyy">
+                    <rect key="frame" x="680" y="530" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="e98-QS-biW"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="NSShareTemplate" imagePosition="only" alignment="center" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="1On-aw-h6H">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <connections>
+                            <action selector="shareOnTwitter:" target="-2" id="B2K-2G-lze"/>
+                        </connections>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="uQz-p3-d8e" firstAttribute="centerX" secondItem="AYq-Zj-KzL" secondAttribute="centerX" id="2Eg-iU-iBj"/>
+                <constraint firstItem="296-bZ-O9u" firstAttribute="baseline" secondItem="Rx9-sX-AEP" secondAttribute="baseline" id="5Wb-fT-gaB"/>
+                <constraint firstItem="Rx9-sX-AEP" firstAttribute="top" secondItem="276" secondAttribute="top" id="63C-0e-dq4"/>
+                <constraint firstItem="Rx9-sX-AEP" firstAttribute="baseline" secondItem="276" secondAttribute="baseline" id="6Q7-YL-YBr"/>
+                <constraint firstItem="Rx9-sX-AEP" firstAttribute="top" secondItem="11" secondAttribute="bottom" constant="111" id="9N2-oM-yKe"/>
+                <constraint firstItem="W3H-t1-ezB" firstAttribute="trailing" secondItem="uQz-p3-d8e" secondAttribute="trailing" id="D0H-w7-mJg"/>
+                <constraint firstItem="uQz-p3-d8e" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="102" id="EEo-ex-qcf"/>
+                <constraint firstItem="296-bZ-O9u" firstAttribute="top" secondItem="Rx9-sX-AEP" secondAttribute="top" id="FRx-xg-joz"/>
+                <constraint firstAttribute="trailing" secondItem="AYq-Zj-KzL" secondAttribute="trailing" id="HcM-oZ-tdD"/>
+                <constraint firstAttribute="bottom" secondItem="276" secondAttribute="bottom" constant="20" id="NvD-nf-MBX"/>
+                <constraint firstItem="W3H-t1-ezB" firstAttribute="top" secondItem="uQz-p3-d8e" secondAttribute="bottom" constant="2" id="OsH-mE-StF"/>
+                <constraint firstItem="AYq-Zj-KzL" firstAttribute="top" secondItem="1" secondAttribute="top" id="b1B-VM-TPe"/>
+                <constraint firstItem="7R5-uo-2i6" firstAttribute="centerX" secondItem="Rx9-sX-AEP" secondAttribute="centerX" id="bOy-5t-fzH"/>
+                <constraint firstItem="296-bZ-O9u" firstAttribute="top" secondItem="7R5-uo-2i6" secondAttribute="bottom" constant="78" id="cFC-rn-FfH"/>
+                <constraint firstItem="11" firstAttribute="top" secondItem="uQz-p3-d8e" secondAttribute="bottom" constant="73" id="eKa-Au-ZaR"/>
+                <constraint firstItem="Rx9-sX-AEP" firstAttribute="centerX" secondItem="W3H-t1-ezB" secondAttribute="centerX" id="eU5-I9-vCo"/>
+                <constraint firstAttribute="trailing" secondItem="296-bZ-O9u" secondAttribute="trailing" constant="20" id="ge3-0k-vCj"/>
+                <constraint firstItem="11" firstAttribute="centerX" secondItem="W3H-t1-ezB" secondAttribute="centerX" id="nHV-M2-BmL"/>
+                <constraint firstItem="W3H-t1-ezB" firstAttribute="leading" secondItem="uQz-p3-d8e" secondAttribute="leading" id="nnS-Wi-J5N"/>
+                <constraint firstAttribute="bottom" secondItem="AYq-Zj-KzL" secondAttribute="bottom" id="pkB-pO-XwO"/>
+                <constraint firstItem="AYq-Zj-KzL" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="ptc-Ur-zf6"/>
+                <constraint firstItem="276" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="qqf-zX-4ma"/>
+                <constraint firstItem="W3H-t1-ezB" firstAttribute="top" secondItem="uQz-p3-d8e" secondAttribute="bottom" constant="2" id="zv3-Bm-cWH"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="154"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="Default-Landscape~ipad" width="279.27273559570312" height="204"/>
+        <image name="NSShareTemplate" width="11" height="16"/>
+        <image name="btnNormal" width="402" height="72"/>
+        <image name="btnPressed" width="400" height="70"/>
+        <image name="btn_start_normal" width="136.63636779785156" height="136.63636779785156"/>
+        <image name="btn_start_pressed" width="136.63636779785156" height="136.63636779785156"/>
+    </resources>
+</document>

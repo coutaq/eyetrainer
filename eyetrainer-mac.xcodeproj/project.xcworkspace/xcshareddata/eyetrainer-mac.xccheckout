@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>65BCB124-3A95-4B9F-96E2-F5DE15599E27</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eyetrainer-mac</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>823FA7801445CB41A1B20407B9AF1CDEA08EB4A1</key>
+		<string>https://github.com/nicklockwood/iRate</string>
+		<key>ADF04B23137F8B60CBE2BC858266ADCAC94A126E</key>
+		<string>ssh://git.assembla.com/eyetrainer-mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eyetrainer-mac.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>823FA7801445CB41A1B20407B9AF1CDEA08EB4A1</key>
+		<string>../../eyetrainer-mac/Libs/iRate</string>
+		<key>ADF04B23137F8B60CBE2BC858266ADCAC94A126E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git.assembla.com/eyetrainer-mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ADF04B23137F8B60CBE2BC858266ADCAC94A126E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ADF04B23137F8B60CBE2BC858266ADCAC94A126E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eyetrainer-mac</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>823FA7801445CB41A1B20407B9AF1CDEA08EB4A1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iRate</string>
+		</dict>
+	</array>
+</dict>
+</plist>

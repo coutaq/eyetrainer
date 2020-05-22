@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% Vision";
+"app_share_results"="Deel uw resultaten";
+"app_on_twitter"="op Twitter";
+"app_on_facebook"="op Facebook";
+"app_tweet"="Huidige voortgang";
+"app_facebook"="Huidige voortgang";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="dagen";
+"app_day"="dag";
+"app_days_234_ru"="";
+"app_notification_today"="Het is tijd nog een andere sessie te doen";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Start";
+"mv_session"="sessie";
+"mv_help"="Hoe te gebruiken";
+"mv_look_after"="Houd uw zicht dagelijks in de gaten en bereik 100%";
+"mv_reach_100"="Goed gedaan! U heeft de 100% bereikt";
+"mv_today"="Vandaag";
+"mv_history_app_launch"="Applicatie starten";
+"mv_history_share_on_twitter"="Delen op Twitter";
+"mv_history_share_on_facebook"="Delen op Facebook";
+"mv_history_finishing_session"="Sessie beëindigen";
+"mv_history_skipped"="Oefeningen overslaan";
+"mv_hint_help"="Klik hier om te zien";
+"mv_feedback"="Uw mening";
+"mv_reminder"="Herinnering";
+"mv_trial_left"="Proefversie: %s over";
+"mv_trial_expired"="Koop de volledige versie. \nDe verzorging voor uw zicht is alleen %@";
+"mv_trial_get_full"="Kopen";
+"mv_requesting_product"="Verbinding maken met de App Winkel";
+"mv_processing_purchase"="Product zoeken uit de App Winkel";
+"mv_restoring_transaction"="Transactiehersel in App Winkel";
+"mv_product_request_failed"="Kan geen verbinding maken met de App Winkel";
+"mv_purchase_successful"="Bedankt dat u de volledige versie van 100% Visie heeft gekocht!";
+"mv_purchases_unaviable"="Dit apparaat is niet geconfigureerd voor het doen van aankopen";
+"mv_network_unaviable"="Maak verbinding met het internet om de video te bekijken";
+"mv_purchase_app"="U krijgt één dag om de toepassing gratis te gebruiken. Heeft u het effect gevoeld? Koop dan de volledige versie voor verder gebruik om uw ogen gezond te houden.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Video";
+"hv_close"="Sluiten";
+"hv_title"="Hoe te gebruiken";
+"hv_info"="\"100% Vision\" normaliseert uw oogaccomodatie (het vermogen om op een object te kunnen focussen, ongeacht de afstand). De oefeningen in de applicatie ontspannen uw ogen.\nDeze applicatie is bedoeld ter preventie van bijziendheid (myopie) en verziendheid (hypermetropie) en ogen te laten ontspannen als u veel achter (beeld)schermen zit.\nAls u een bril of lenzen gebruikt dienen deze verwijderd te worden voor u met een sessie begint.";
+"hv_pose"="Ga confortabel\nzitten";
+"hv_remove_glasses"="Doe uw bril af\nof verwijder uw lenzen";
+"hv_ipad_one"="Hou de Mac op ooghoogte";
+"hv_ipad_two"="80-100 cm";
+"hv_ipad_three"="verwijderd";
+"hv_button_one"="Druk";
+"hv_button_two"="start";
+"hv_button_three"="iedere sessie duurt ongeveer 5 minuten";
+"hv_eyes"="Niet focussen op het scherm. Ontspan uw ogen. Indien het scherm te helder is kunt u de helderheid aanpassen in de \"instellingen\" applicatie.";
+"hv_disclaimer_title"="Let op!";
+"hv_disclaimer"="De therapeutische effecten verminderen na 1-1,5 maanden na het stoppen met de oefeningen.";
+"hv_best_result"="Om het beste resultaat te bereiken raden wij aan dagelijks de oefeningen uit te voeren.";
+"hv_restrictions"="Indien u negatieve effecten ondervindt door het gebuik van deze applicatie dient u direct met het gebruik te stoppen. \nIndien u chronische neurologische krampen heeft of gevoelig bent voor epileptische aanvallan dient u deze applicatie niet te gebruikten.";
+"hv_how_it_works_title"="Hoe werkt het";
+"hv_how_it_works_1"="Het optische effekt van een beweging in een tunnel ontspant de accomodatie van de ogen.";
+"hv_how_it_works_2"="Ruit- en vierkantannimaties trainen uw oogspieren. Tijdens de oefening merkt u hoe uw ogen zich convergeren en weer divergeren.";
+"hv_how_it_works_3"="Een waterspiegel illusie ontspant de accomodatie. De zachte waterbewegingen dwingen uw ogen om deze bewegingen te volgen waardoor de oogspieren worden opgewarmd.";
+"hv_how_it_works_4"="Oogaccomodatie is het vermogen om op een object te kunnen focussen, ongeacht de afstand.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Gefeliciteerd!\nU heeft de opdracht vooltooid.";
+"afv_you_earned"="Uw score";
+"afv_you_have"="Het totaal is";
+"afv_home"="Begin";
+
+//  ERR – Errors
+
+"err_template"="Er is een fout opgetreden №% d.";
+"err_unknown"="Onbekende fout. ";

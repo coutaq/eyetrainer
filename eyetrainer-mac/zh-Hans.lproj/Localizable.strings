@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% 视力";
+"app_share_results"="分享结果";
+"app_on_twitter"="到推特上";
+"app_on_facebook"="到脸谱上";
+"app_tweet"="我目前的进度是 ";
+"app_facebook"="我目前的进度是 ";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="天";
+"app_day"="天";
+"app_days_234_ru"="";
+"app_notification_today"="现在是开始另外一个课程";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="开始";
+"mv_session"="课程";
+"mv_help"="如何使用";
+"mv_look_after"="每天保护您的视力以达到100%";
+"mv_reach_100"="太棒了！您已经达到了100%。";
+"mv_today"="今天";
+"mv_history_app_launch"="现在就启动应用程序";
+"mv_history_share_on_twitter"="通过推特分享";
+"mv_history_share_on_facebook"="通过脸谱分享";
+"mv_history_finishing_session"="结束课程";
+"mv_history_skipped"="跳过练习";
+"mv_hint_help"="点击此处查看";
+"mv_feedback"="反馈";
+"mv_reminder"="提示";
+"mv_trial_left"="试用期: 剩余 %s";
+"mv_trial_expired"="购买完整版。照顾好您的视力只是％@  ";
+"mv_trial_get_full"="获取完整版";
+"mv_requesting_product"="连接到应用程序商店";
+"mv_processing_purchase"="从应用程序商店查询产品";
+"mv_restoring_transaction"="应用程序商店中的事务恢复";
+"mv_product_request_failed"="无法连接到应用程序商店";
+"mv_purchase_successful"="感谢您购买完整版100% Vision!";
+"mv_purchases_unaviable"="该设备的配置不能进行购物";
+"mv_network_unaviable"=" 连接到互联网以观看视频";
+"mv_purchase_app"="您有一天免费试用该应用程序的机会。您已经感受到其效果了吗？购买完整版以继续使用，并使您的视力保持健康。";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="视频";
+"hv_close"="关闭";
+"hv_title"="如何使用";
+"hv_info"="“100%视力”程序能够调节眼睛的适应能力（使得我们有更好的关注物体的能力，无论物体的远近）。程序中所使用的练习能够消除眼睛疲劳。\n该应用程序被推荐用于预防近视和老花眼（近视和远视）并且可以使得使用视觉显示器工作的人们得以调节和放松。";
+"hv_pose"="请选择\n舒服的坐姿";
+"hv_remove_glasses"="移除眼镜\n或者镜片";
+"hv_ipad_one"="把Mac放置于\n您双眼的高度";
+"hv_ipad_two"="保持80-100厘米";
+"hv_ipad_three"="的距离";
+"hv_button_one"="接着按";
+"hv_button_two"="开始键";
+"hv_button_three"="每个课程持续大约\n5分钟";
+"hv_eyes"="不要时刻盯着屏幕。请您一定要放松自己的眼睛。\n如果您的屏幕太亮，请进入设置以调整亮度到舒适的水平。";
+"hv_disclaimer_title"="免责声明";
+"hv_disclaimer"="在保健练习终止后的1 – 1.5个月之后，眼睛的调节能力的改善效果将会逐渐减弱。";
+"hv_best_result"="为了获得持续改善的效果，一定要确保您每天对于眼部的练习。";
+"hv_restrictions"="如果您遇到任何不良反应，请立刻停止使用该应用程序。如果您患有长期或慢性神经性痉挛和/或者您有癫痫病史，请不要使用该应用程序。\n";
+"hv_how_it_works_title"="工作原理";
+"hv_how_it_works_1"="隧道内部移动的视觉效果，可以通过使用周期性模式来放松并拉紧眼睛的调节功能。";
+"hv_how_it_works_2"="正方形和菱形的动画可以锻炼眼部肌肉。在观看的时候，您可能会感觉到眼部肌肉的收紧和放松。";
+"hv_how_it_works_3"="水面的幻觉可以舒缓眼部的调节功能。当眼睛跟随波浪平稳移动时，其实您的眼外肌也正处于“热身”状态。";
+"hv_how_it_works_4"="眼睛的调节功能，是指我们有能力专注于一个物体，无论它与我们之间的距离是远还是近。";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="恭喜！\n您已經完成了演習。";
+"afv_you_earned"="您的分數";
+"afv_you_have"="你的總";
+"afv_home"="家";
+
+//  ERR – Errors
+
+"err_template"="发生错误 №%d。";
+"err_unknown"="未知的错误。";

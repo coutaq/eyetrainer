@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% Vision";
+"app_share_results"="Compartir resultados";
+"app_on_twitter"="en Twitter";
+"app_on_facebook"="en Facebook";
+"app_tweet"="Mi resultado actual ";
+"app_facebook"="Mi resultado actual ";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="días";
+"app_day"="día";
+"app_days_234_ru"="";
+"app_notification_today"="Es hora de comenzar otra sesión hoy y alcanzar";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Inicio";
+"mv_session"="de la sesión";
+"mv_help"="Ayuda";
+"mv_look_after"="Cuídese de su visión cada día y alcance 100%";
+"mv_reach_100"="¡Excelente trabajo! Usted ha alcanzado 100 %";
+"mv_today"="Hoy";
+"mv_history_app_launch"="Lanzamiento de la aplicación";
+"mv_history_share_on_twitter"="Posteo en Twitter";
+"mv_history_share_on_facebook"="Posteo en Facebook";
+"mv_history_finishing_session"="Cerrar sesión";
+"mv_history_skipped"="Saltándose ejercicios";
+"mv_hint_help"="Presione aquí para ver";
+"mv_feedback"="Realimentación";
+"mv_reminder"="Recordatorio";
+"mv_trial_left"="Prueba: %s restante";
+"mv_trial_expired"="Compra la versión completa. \nEl cuidado de tu visión es sólo %@.";
+"mv_trial_get_full"="Comprar";
+"mv_requesting_product"="Conectándose a App Store";
+"mv_processing_purchase"="Preguntando por un producto de App Store";
+"mv_restoring_transaction"="Recuperación de la transacción en App Store";
+"mv_product_request_failed"="Fallo en la conexión con App Store";
+"mv_purchase_successful"="¡Gracias por comprar la versión completa de 100% Vision!";
+"mv_purchases_unaviable"="Este dispositivo no está configurado para realizar compras";
+"mv_network_unaviable"="Conéctese a Internet para ver el video";
+"mv_purchase_app"="Tienes un día entero para provar la aplicación de forma gratuita. ¿Notas sus efectos? Compra la versión completa para seguir usándola y mantiene tus ojos sanos.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Video";
+"hv_close"="Сerrar";
+"hv_title"="Como usar";
+"hv_info"="La aplicación \"Vision 100%\" normaliza la acomodación ocular (un mecanismo que nos permite enfocar en un sujeto, independientemente de la distancia a la que se encuentre). Los ejercicios utilizados en el programa eliminan la fatiga visual.\nEl programa está recomendado para la prevención de la miopía infantil, la presbiopía y para la relajación de la vista para aquellos que trabajan frente a pantallas de ordenador.\nSi usted lleva gafas o lentes de contacto, debe quitárselas antes de la sesión.";
+"hv_pose"="Siéntese\ncómodamente";
+"hv_remove_glasses"="Quítese las gafas\no lentillas";
+"hv_ipad_one"="Mantenga su Mac\na nivel ocular.";
+"hv_ipad_two"="80-100cm";
+"hv_ipad_three"="de distancia";
+"hv_button_one"="Apriete";
+"hv_button_two"="inicio";
+"hv_button_three"="cada sesión dura unos\n5 minutos";
+"hv_eyes"="No enfoque la vista en la pantalla. Relaje los ojos.\nSi la imagen tiene demasiado brillo, acceda al menú de ajustes y ajústela al nivel adecuado.";
+"hv_disclaimer_title"="¡Aviso!";
+"hv_disclaimer"="Los cambios de parámetros de la acomodación ocular disminuyen de 1 a 1.5 meses después del cese del programa de entrenamiento.";
+"hv_best_result"="Para una mejora continua garantizada asegúrese de realizar los ejercicios a diario.";
+"hv_restrictions"="Si experimenta cualquier tipo de efecto adverso deje de usar la aplicación.\nNo use la aplicación, si sufre de espasmos neurogénicos persistentes o crónicos y/o si tiene antecedentes de convulsiones epileptiformes.\n";
+"hv_how_it_works_title"="¿Cómo funciona esto?";
+"hv_how_it_works_1"="El efecto visual de movimiento por el túnel relaja y tensa la acomodación ocular siguiendo un patrón  periódico.";
+"hv_how_it_works_2"="La animación de rombos y cuadrados entrena los músculos oculares. Mientras la observa, sentirá que sus ojos comienzan a converger y divergir.";
+"hv_how_it_works_3"="La ilusión de superficie acuática relaja la acomodación ocular. Al seguir los movimientos suaves de la ola se produce  el \"estiramiento\" de los músculos extraoculares.";
+"hv_how_it_works_4"="La acomodación ocular es un mecanismo que nos permite enfocar en un sujeto, independientemente de la distancia a la que se encuentre de nuestro ojo.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="¡Felicitaciones! Ha completado el ejercicio.";
+"afv_you_earned"="Su puntuación fue";
+"afv_you_have"="Su puntuación total es";
+"afv_home"="Página de inicio";
+
+//  ERR – Errors
+
+"err_template"="Se ha producido un error №%d.";
+"err_unknown"="Error desconocido.";

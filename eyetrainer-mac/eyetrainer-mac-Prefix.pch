@@ -1,0 +1,59 @@
+//
+// Prefix header for all source files of the 'eyetrainer-mac' target in the 'eyetrainer-mac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#ifndef Eyetrainer_Constants_h
+#define Eyetrainer_Constants_h
+
+#define APP_IN_DEBUG        0
+#define APP_ID              @"566332810"
+#define APP_HOMEPAGE        @"get100vision.com"
+#define APP_HOMEPAGE_URL    @"http://get100vision.com"
+#define APP_EMAIL           @"info@get100vision.com"
+#define APP_EMAIL_SUBJ      @"Feedback"
+
+#define APP_STORE_URL    @"itms-apps://itunes.apple.com/app/id566332810"
+
+#endif
+
+#define kRatedHeight        768
+#define kRatedWidth         1024
+#define kEstimatedTrialDays 1
+#define APP_DEFAULT_PRICE       @"$2.99"
+
+#define kDefaultPoints          3
+#define kChangeUsageDays        @"kChangeUsageDays"
+#define kFirstDate              @"first_date"
+#define kLastDate               @"last_date"
+#define kPoints                 @"total_points"
+#define kUsageDays              @"usage_days"
+#define kRunDaysCount           @"run_days_count"
+//#define kRewardToday            @"reward_today"
+#define kLastRewardDate         @"last_reward_date"
+
+#define kVideoWatched           @"video_watched"
+
+#define kReminderDate           @"reminder_date"
+#define kReminderEnabled        @"reminder_enabled"
+
+
+#define kMainViewController         @"MainView"
+#define kHelpWindowController       @"HelpWindow"
+#define kVideoWindowController      @"VideoWindow"
+#define kReminderWindowController   @"ReminderWindow"
+#define kPurchaseWindowController   @"PurchaseWindow"
+#define kPauseViewController        @"PauseView"
+
+#define kProductName                @"com.stepinmobile.osx.dailyeyecare.full"
+
+#undef weak_delegate
+#if __has_feature(objc_arc_weak) && __MAC_OS_X_VERSION_MIN_REQUIRED >= __MAC_10_8
+#define weak_delegate weak
+#else
+#define weak_delegate unsafe_unretained
+#endif
+

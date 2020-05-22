@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% ビジョン";
+"app_share_results"="成果をシェアする";
+"app_on_twitter"="ツイッターにて";
+"app_on_facebook"="フェイスブックにて";
+"app_tweet"="現在の経過は ";
+"app_facebook"="現在の経過は ";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="日";
+"app_day"="日";
+"app_days_234_ru"="";
+"app_notification_today"="今日のセッションの時間です";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="スタート";
+"mv_session"="セッション";
+"mv_help"="使い方";
+"mv_look_after"="毎日視力を測り、100%に到達させます";
+"mv_reach_100"="おめでとうございます！100%に到達しました";
+"mv_today"="今日";
+"mv_history_app_launch"="今アプリを起動する";
+"mv_history_share_on_twitter"="ツイッターでシェアする";
+"mv_history_share_on_facebook"="フェイスブックでシェアする";
+"mv_history_finishing_session"="セッションを終了する";
+"mv_history_skipped"="エクササイズをスキップする";
+"mv_hint_help"="確認するにはここをタップしてください";
+"mv_feedback"="フィードバック";
+"mv_reminder"="お知らせ";
+"mv_trial_left"="トライアル：%s 残っています。";
+"mv_trial_expired"="フルバージョンを購入。\nあなたのビジョンの世話をするだけ％である@";
+"mv_trial_get_full"="買う";
+"mv_requesting_product"="アプリストアに接続中";
+"mv_processing_purchase"="アプリストアの商品について問い合わせ中";
+"mv_restoring_transaction"="アプリストアのトランザクション回復";
+"mv_product_request_failed"="アプリストアの接続に失敗";
+"mv_purchase_successful"="100%Visionの完全版をお買い上げいただき、ありがとうございます！";
+"mv_purchases_unaviable"="このデバイスは、ご購入用に設定されていません";
+"mv_network_unaviable"="インターネットに接続して動画を見る";
+"mv_purchase_app"="あなたは、アプリケーションのための1日間の無料トライアルを持っています。効果を感じますか？無料試用版フルバージョンを購入し、さらにあなたの目の健康を保つ。";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="動画";
+"hv_close"="閉じます";
+"hv_title"="使い方";
+"hv_info"="“100% ビジョン”は、目の調節力（対象までの距離に関わらず、焦点を合わせる機能）の正常化を図ります。\nこのアプリは近視・遠視予防、また、日常的に目を酷使する方への視力調節の休養として推奨されています。";
+"hv_pose"="座る\n楽に";
+"hv_remove_glasses"="眼鏡またはコンタクトレンズを外してください。";
+"hv_ipad_one"="Macを持つ\n目の高さに合わせる";
+"hv_ipad_two"="80-100 cm";
+"hv_ipad_three"="離れる";
+"hv_button_one"="押す";
+"hv_button_two"="スタート";
+"hv_button_three"="各セッションは5分程度です";
+"hv_eyes"="画面に集中せず、目をリラックスさせてください。\n画面が明るすぎる場合は、設定にて適当な明るさに調節して下さい。";
+"hv_disclaimer_title"="免責事項";
+"hv_disclaimer"="この視力調節運動の効果はエクササイズを休止してから1ヶ月から1ヵ月半程度で薄れていきます。";
+"hv_best_result"="持続的な効果の向上の為、毎日エクササイズする様にして下さい。";
+"hv_restrictions"="持続的または慢性的な神経性けいれんをお持ちの方、および、てんかん様発作を起こしたことがある方はこのアプリの使用をお控えください。";
+"hv_how_it_works_title"="仕組み";
+"hv_how_it_works_1"="トンネル内移動の視覚効果は、周期的なパターンにより視力調節をリラックスさせ、程よい緊張を与えます。";
+"hv_how_it_works_2"="正方形やひし形のアニメーションにより目の筋肉を鍛えます。アニメーションを見ている間、目の焦点が一点に集中したり拡散したりするのを感じることがあります。";
+"hv_how_it_works_3"="水面イリュージョンは視力調節をリラックスさせます。緩やかな波の動きを目で追うことで、外眼筋の”ウォーミングアップ”をすることができます。";
+"hv_how_it_works_4"="目の調節力とは、対象までの距離に関わらず焦点を合わせる能力のことです";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="おめでとう！\nあなたは、演習を完了した。";
+"afv_you_earned"="あなたが獲得した";
+"afv_you_have"="あなたの合計です";
+"afv_home"="ホーム";
+
+//  ERR – Errors
+
+"err_template"="エラーが発生 №%d。";
+"err_unknown"="原因不明のエラー。";

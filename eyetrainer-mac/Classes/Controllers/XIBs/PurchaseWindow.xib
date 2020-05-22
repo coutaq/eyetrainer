@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PurchaseWindowController">
+            <connections>
+                <outlet property="buyButton" destination="bis-gw-eKE" id="Z7k-Uw-ybe"/>
+                <outlet property="cancelButton" destination="gOw-RF-m1H" id="uLp-oM-bmn"/>
+                <outlet property="contentLabel" destination="Bea-Fs-Qlt" id="ras-P6-9xw"/>
+                <outlet property="progressIndicator" destination="PQ1-JH-NOl" id="mlG-uC-zVx"/>
+                <outlet property="progressLabel" destination="ykR-UC-F3h" id="Wey-xp-RaU"/>
+                <outlet property="restoreButton" destination="yB2-iK-p0P" id="uIs-zG-cHo"/>
+                <outlet property="window" destination="Qg8-Hb-bs0" id="Ggg-xX-fak"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="Qg8-Hb-bs0">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <rect key="contentRect" x="596" y="494" width="600" height="226"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <view key="contentView" id="IlN-iL-O9x">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="226"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="oEC-4F-Xt2">
+                        <rect key="frame" x="20" y="61" width="560" height="145"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bea-Fs-Qlt">
+                                <rect key="frame" x="-2" y="0.0" width="564" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="xuv-bB-q0U"/>
+                                </constraints>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Label" id="5Zp-Mo-HSD">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ykR-UC-F3h">
+                                <rect key="frame" x="-2" y="31" width="564" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="qy8-vr-0HP">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="PQ1-JH-NOl">
+                                <rect key="frame" x="264" y="56" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </progressIndicator>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ykR-UC-F3h" secondAttribute="trailing" id="A6T-bo-BJH"/>
+                            <constraint firstAttribute="centerX" secondItem="PQ1-JH-NOl" secondAttribute="centerX" id="EiV-Rg-1tU"/>
+                            <constraint firstAttribute="trailing" secondItem="Bea-Fs-Qlt" secondAttribute="trailing" id="Eoa-Cg-90t"/>
+                            <constraint firstAttribute="centerY" secondItem="PQ1-JH-NOl" secondAttribute="centerY" id="Sef-Vw-hgF"/>
+                            <constraint firstItem="ykR-UC-F3h" firstAttribute="top" secondItem="PQ1-JH-NOl" secondAttribute="bottom" constant="8" id="Vxd-Mj-j6z"/>
+                            <constraint firstItem="ykR-UC-F3h" firstAttribute="leading" secondItem="oEC-4F-Xt2" secondAttribute="leading" id="X5i-pV-85m"/>
+                            <constraint firstItem="Bea-Fs-Qlt" firstAttribute="leading" secondItem="oEC-4F-Xt2" secondAttribute="leading" id="keY-jb-et0"/>
+                            <constraint firstItem="Bea-Fs-Qlt" firstAttribute="top" secondItem="oEC-4F-Xt2" secondAttribute="top" id="ug6-Hy-Znp"/>
+                            <constraint firstAttribute="bottom" secondItem="Bea-Fs-Qlt" secondAttribute="bottom" id="zQi-wL-zeQ"/>
+                        </constraints>
+                    </customView>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bis-gw-eKE">
+                        <rect key="frame" x="424" y="13" width="162" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="YIn-go-vun"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Buy f" bezelStyle="rounded" alignment="center" refusesFirstResponder="YES" state="on" borderStyle="border" inset="2" id="Yrh-dk-bx8">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yB2-iK-p0P">
+                        <rect key="frame" x="262" y="13" width="162" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="G64-NP-ugg"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Restore f" bezelStyle="rounded" alignment="center" scrollable="YES" lineBreakMode="clipping" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="D1q-f3-Y0M">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gOw-RF-m1H">
+                        <rect key="frame" x="14" y="13" width="100" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="88" id="VHy-eL-8k3"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Cancel f" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lFz-cR-kpE">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bis-gw-eKE" firstAttribute="leading" secondItem="yB2-iK-p0P" secondAttribute="trailing" constant="12" id="41j-17-2tG"/>
+                    <constraint firstItem="oEC-4F-Xt2" firstAttribute="leading" secondItem="IlN-iL-O9x" secondAttribute="leading" constant="20" id="42H-JH-hHl"/>
+                    <constraint firstAttribute="bottom" secondItem="bis-gw-eKE" secondAttribute="bottom" constant="20" id="QQH-R7-97h"/>
+                    <constraint firstAttribute="bottom" secondItem="gOw-RF-m1H" secondAttribute="bottom" constant="20" id="SkF-qg-ckU"/>
+                    <constraint firstAttribute="bottom" secondItem="yB2-iK-p0P" secondAttribute="bottom" constant="20" id="bFy-mt-8li"/>
+                    <constraint firstItem="gOw-RF-m1H" firstAttribute="top" secondItem="oEC-4F-Xt2" secondAttribute="bottom" constant="20" id="ddr-7Q-XPO"/>
+                    <constraint firstItem="gOw-RF-m1H" firstAttribute="leading" secondItem="IlN-iL-O9x" secondAttribute="leading" constant="20" id="upY-FQ-pgd"/>
+                    <constraint firstAttribute="trailing" secondItem="bis-gw-eKE" secondAttribute="trailing" constant="20" id="vrs-b0-x5w"/>
+                    <constraint firstItem="oEC-4F-Xt2" firstAttribute="top" secondItem="IlN-iL-O9x" secondAttribute="top" constant="20" id="xVO-aq-zgl"/>
+                    <constraint firstAttribute="trailing" secondItem="oEC-4F-Xt2" secondAttribute="trailing" constant="20" id="yTS-40-CxQ"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>

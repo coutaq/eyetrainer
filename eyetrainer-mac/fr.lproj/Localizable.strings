@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"=" 100% Vision";
+"app_share_results"="Partager le résultat";
+"app_on_twitter"="sur Twiter";
+"app_on_facebook"="sur Facebook";
+"app_tweet"="Mon niveau actuel est";
+"app_facebook"="Mon niveau actuel est";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="jours";
+"app_day"="jour";
+"app_days_234_ru"="";
+"app_notification_today"="Il est l'heure de prendre encore une session";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Démarrer";
+"mv_session"="séance ";
+"mv_help"="Comment utiliser";
+"mv_look_after"="Prenez soin de votre vue quotidiennement et atteignez 100%";
+"mv_reach_100"="Bon travail ! Vous avez atteint 100%";
+"mv_today"="Aujourd'hui";
+"mv_history_app_launch"="Lancement de l'application";
+"mv_history_share_on_twitter"="Partager sur Twitter";
+"mv_history_share_on_facebook"="Partager sur Facebook";
+"mv_history_finishing_session"="Terminer le cours";
+"mv_history_skipped"="Passer l'exercice";
+"mv_hint_help"="Toucher ici pour vérifier";
+"mv_feedback"="Réaction";
+"mv_reminder"="Rappel";
+"mv_trial_left"="Période d'essai: %s restent";
+"mv_trial_expired"="Achetez une version complète. \nLe soin de votre vision seulement pour %@";
+"mv_trial_get_full"="Acheter";
+"mv_requesting_product"="Connexion avec AppStore.";
+"mv_processing_purchase"="Demande du produit à AppStore.";
+"mv_restoring_transaction"="Reprise de la transaction.";
+"mv_product_request_failed"="Impossible de se connecter à AppStore.";
+"mv_purchase_successful"="Merci d’avoir acheté la version complète de 100%VISION !";
+"mv_purchases_unaviable"="Votre appareil ne peut pas faire des achats.";
+"mv_network_unaviable"="Pour voir la vidéo, veuillez vous connecter l'Internet.";
+"mv_purchase_app"="Vous avez un jour pour un essai gratuit de l'application. Avez-vous ressenti l'effet? Achetez la version complète pour utilisation suivante et  gardez vos yeux.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Vidéo.";
+"hv_close"="Proche";
+"hv_title"="Comment utiliser";
+"hv_info"="L'application \"Vision 100%\" atténue les troubles de la vision par un processus auquel l'œil s'adapte et est capable de se concentrer ceci à diverses distances de l'objet vu. Ce sont des exercices utilisés pour enlever la fatigue oculaire.\nCe programme est recommandé pour la prévention de la myopie infantile, la presbytie et la fatigue oculaire lorsque vous travaillez avec un ordinateur.\nSi vous utilisez des lunettes ou des lentilles de contact, il est impératif de les enlever avant de commencer la séance.";
+"hv_pose"="Asseyez-vous\nconfortablement";
+"hv_remove_glasses"="Enlevez vos lunettes\nou verres de contact";
+"hv_ipad_one"="Tenez votre Mac\nau niveau de vos yeuxn";
+"hv_ipad_two"="80-100 cm";
+"hv_ipad_three"="au loin";
+"hv_button_one"="Touchez";
+"hv_button_two"="démarrer";
+"hv_button_three"="chaque cours dure environ\n5 minutes";
+"hv_eyes"="Ne focalisez pas votre regard sur écran, détendez vos yeux.\nSi votre écran est trop lumineux, il est préférable d'ajuster la luminosité à un niveau plus confortable.";
+"hv_disclaimer_title"="Désistement";
+"hv_disclaimer"="Les effets bénéfique de la thérapie sont pas persistants. Les troubles oculaires reviennent après 1 à 1, 5 mois après la fin des exercices.";
+"hv_best_result"="Pour garantir une amélioration constante vous devez vous exercer tous les jours.";
+"hv_restrictions"="Si vous constatez des effets indésirables - cessez d'utiliser l'application.\nVeuillez ne pas utiliser l'application si vous souffrez de spasmes neurologiques chronique ou persistant et/ou si vous avez eu des antécédents de convulsions de type épileptique.";
+"hv_how_it_works_title"="Comment cela fonctionne t-il ";
+"hv_how_it_works_1"="L'effet visuel du tunnel, détend vos yeux et atténue vos troubles de la vision sous l'effet des changements de direction dans un sens puis dans l'autre.";
+"hv_how_it_works_2"="L'animation des diamants étincelants étire vos muscles oculaires. Pendant la séance vous vous sentirez que vos yeux commencent à converger et diverger.";
+"hv_how_it_works_3"="L'illusion de la surface de l'eau relaxe vos yeux. Les mouvements de l'eau étirent vos muscles oculaires.";
+"hv_how_it_works_4"="L'atténuation de vos troubles de la vision résulte par votre capacité à vous concentrer sur un objet peu importe la distance par rapport à vous.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Félicitations! Vous avez terminé l'exercice.";
+"afv_you_earned"="Votre score est";
+"afv_you_have"="Votre total est";
+"afv_home"="Accueil";
+
+//  ERR – Errors
+
+"err_template"="Une erreur s’est survenue №%d.";
+"err_unknown"="Erreur inconnue.";

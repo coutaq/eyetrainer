@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="%100 Vision";
+"app_share_results"="Sonuçları paylaş";
+"app_on_twitter"="Twitter'da";
+"app_on_facebook"="Facebook'ta";
+"app_tweet"="Mevcut ilerlemem";
+"app_facebook"="Mevcut ilerlemem";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="gün";
+"app_day"="saat";
+"app_days_234_ru"="";
+"app_notification_today"="Bugün başka bir oturum açın";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Başlat";
+"mv_session"="oturum";
+"mv_help"="Kullanım";
+"mv_look_after"="Görme gücünüze her gün dikkat edin ve %100'e ulaşın";
+"mv_reach_100"="Bravo! %100'e ulaştınız";
+"mv_today"="Bugün";
+"mv_history_app_launch"="Uygulamayı bugün başlatın";
+"mv_history_share_on_twitter"="Twitter'da paylaşın";
+"mv_history_share_on_facebook"="Facebook'ta paylaşın";
+"mv_history_finishing_session"="Oturumu sonlandırın";
+"mv_history_skipped"="Alıştırmaları geçin";
+"mv_hint_help"="Kontrol etmek için buraya hafifçe dokunun";
+"mv_feedback"="Geri bildirim";
+"mv_reminder"="Hatırlatma";
+"mv_trial_left"="Deneme: Geri kalan %s";
+"mv_trial_expired"="Tam sürümünü satın alın. \nGöz sağlığınızı korumanız sadece %@";
+"mv_trial_get_full"="Almak";
+"mv_requesting_product"="AppStore'a bağlanmak";
+"mv_processing_purchase"="Ürünü App Store'da sorgulamak ";
+"mv_restoring_transaction"="App Store'daki işlemi kurtarmak";
+"mv_product_request_failed"="App Store'a bağlanma işlemi başarısız";
+"mv_purchase_successful"="%100 Vision'un tam sürümünü satın aldığınız için teşekkürler!";
+"mv_purchases_unaviable"="Bu alet satın alma işlemleri için yapılandırılmamıştır";
+"mv_network_unaviable"="Videoyu izlemek için internete bağlanın";
+"mv_purchase_app"="Uygulamayı bedava denemeniz için sadece bir gününüz var. Etkiyi hissettiniz mi? Daha fazla kullanım için tam sürümünü satın alın ve gözlerinizin sağlığını koruyun.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Video ";
+"hv_close"="Kapat";
+"hv_title"="Kullanımı";
+"hv_info"="\"%100 Vision\" uygulaması göz uyumunu (uzaklığı ne olursa olsun bir objeye odaklanma yeteneğimizi) normalleştirir.\nProgramdaki egzersizler göz yorgunluğunu giderir. \nBu uygulama miyopluk ve ve presbiyopinin  (yakını ve uzağı görememe) önlenmesi ve görsel birimlerle çalışan kişilerin uyumunun kolaylaşması için tavsiye edilir.";
+"hv_pose"="Rahat\noturun";
+"hv_remove_glasses"="gözlükleri veya\nlensleri çıkartın";
+"hv_ipad_one"="Mac'i gözlerinizle aynı seviyede tutun";
+"hv_ipad_two"="80-100 cm";
+"hv_ipad_three"="uzakta";
+"hv_button_one"="Basın";
+"hv_button_two"="başlat";
+"hv_button_three"="her oturum yaklaşık\n5 dakika sürmektedir";
+"hv_eyes"="Ekrana odaklanmayın. Gözlerinizi rahatlatın. Eğer ekranınız çok parlaksa lütfen ayarlara gidin ve parlaklılığı rahat edebileceğiniz şekilde ayarlayın.";
+"hv_disclaimer_title"="Sorumluluğun reddi";
+"hv_disclaimer"="Egzersizlerin sonlandırılmasından sonra 1 - 1,5 ay içerisinde göz uyumundaki değişimin miktarı azalır";
+"hv_best_result"="Sürekli gelişim için günlük egzersizlere devam edin.";
+"hv_restrictions"="Olumsuz etkiye maruz kalmanız durumunda uygulamanın kullanımını sonlandırın. Kalıcı veya kronik nörojenik spazm ve / veya epileptiform nöbet rahatsızlıklarınız varsa bu uygulamayı kullanmayınız.\n";
+"hv_how_it_works_title"="Nasıl çalışır";
+"hv_how_it_works_1"="Periyodik olarak tünel içinde hareket etmenin görsel etkisi göz uyumunu hafifleştirir ve gözü periyodik örüntüye zorlar.\n";
+"hv_how_it_works_2"="Kareler ve eşkenar dörtgen animasyonu göz kaslarını çalıştırır. İzlerken gözlerinizin kısıldığını ve açıldığını hissedebilirsiniz.";
+"hv_how_it_works_3"="Su yüzeyi illüzyonu göz uyumunu rahatlatır. Dalgadaki hafif hareketleri izlerken göz yuvarlağındaki kaslarınız \"ısınır\".";
+"hv_how_it_works_4"="Göz uyumu bizden ne kadar uzakta olursa olsun o objeye odaklanma yeteneğimizdir.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Tebrikler!\nEgzersizi tamamladınız.";
+"afv_you_earned"="Puanınız";
+"afv_you_have"="Toplamınız";
+"afv_home"="Başlangıç";
+
+//  ERR – Errors
+
+"err_template"="Bir hata meydana geldi №%d.";
+"err_unknown"="Bilinmeyen hata";

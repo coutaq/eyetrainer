@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="رؤية 100%";
+"app_share_results"="شارك النتائج";
+"app_on_twitter"="على تويتر";
+"app_on_facebook"="على فيسبوك";
+"app_tweet"="تقدمي الحالي هو";
+"app_facebook"="تقدمي الحالي هو";
+"app_sharing_reward"="0.10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="ايام";
+"app_day"="يوم";
+"app_days_234_ru"="";
+"app_notification_today"="حان الوقت اليوم لاخذ جلسة جديدة";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="إبدأ";
+"mv_session"="جلسة";
+"mv_help"="كيف تستخدم";
+"mv_look_after"="اعتني ببصرك يوميا و صل ل100%";
+"mv_reach_100"="عمل رائع لقد وصلت الى 100%";
+"mv_today"="اليوم";
+"mv_history_app_launch"="إطلاق التطبيق";
+"mv_history_share_on_twitter"="المشاركة عبر تويتر";
+"mv_history_share_on_facebook"="الشاركة عبر فيس بوك";
+"mv_history_finishing_session"="انهاء الجلسة";
+"mv_history_skipped"="تخطي التمارين";
+"mv_hint_help"="انقر هنا للتحقق";
+"mv_feedback"="التقييم";
+"mv_reminder"="التذكير";
+"mv_trial_left"="التجربة: بقي s%";
+"mv_trial_expired"="، احصل علي النسخه الكامله، الأهتمام ببصرك فقط من خلال @%";
+"mv_trial_get_full"="خریدنا";
+"mv_requesting_product"="الأتصال  بمتجر التطبيقات";
+"mv_processing_purchase"="الأستفسار عن منتج داخل متجر التطبيقات";
+"mv_restoring_transaction"="معالجه المعاملات داخل  متجر التطبيقات";
+"mv_product_request_failed"="الفشل في الأتصال بمتجر التطبيقات";
+"mv_purchase_successful"="شكرا لأقتنائك النسخه الكامله من100%  فيجن";
+"mv_purchases_unaviable"="هذا الجهاز غير مجهز لعمل مشتريات منه";
+"mv_network_unaviable"="اتصل بالأنترنت لمشاهده هذا الفيديو";
+"mv_purchase_app"="لديك يوم واحد لتجربه التطبيق مجانا، هل شعرت بالأثر؟ احصل علي النسخه الأصليه لأستخدام أكثر و حافظ علي صحه عينيك.";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="فيديو";
+"hv_close"="أغلق";
+"hv_title"="كيف تستخدم";
+"hv_info"="تطبيق 100% رؤية يعيد تكيف العين الى طبيعته ( قدرتنا على التركيز على شئ بغض النظر عن المسافة التي تفصلنا عنه). التمارين التي تستخدم بالبرنامج تزيل توتر العين. هذا التطبيق يوصى به للوقاية من طول و قصر النظر (بعد النظر الطويل و بعد النظر القصير) و اراحة لتكيف العينين للأشخاص اللذين يتعاملون مع وحدات العرض المرئي.";
+"hv_pose"="اجلس براحة";
+"hv_remove_glasses"="انزع النظارات او العدسات";
+"hv_ipad_one"="احمل الآي باد على مستوى عينيك";
+"hv_ipad_two"="80-100 سم";
+"hv_ipad_three"="بعيد";
+"hv_button_one"="اضغط";
+"hv_button_two"="إبدأ";
+"hv_button_three"="كل جلسة تستمر لمدة 5 دقائق";
+"hv_eyes"="لا تركز على الشاشة. ارح عينيك. اذا كانت شاشتك ساطعة جدا الرجاء الذهاب الى الإعدادات و تعديل السطوع الى المستوى المناسب.";
+"hv_disclaimer_title"="التنصل";
+"hv_disclaimer"="التأثير على تغيرات تكيف العين يقل بعد 1-1.5 شهر من التوقف عن التمارين.";
+"hv_best_result"="لتحسين مستمر تأكد من ممارستك للتمرين يوميا";
+"hv_restrictions"="اذا اختبرت أي تأثيرات سلبية-توقف عن استخدام التطبيق. لا تستخدم التطبيق اذا كنت تعاني من اضرار عصبية دائمة أو مزمنة وأو لديك تاريخ نوبات صرعية.";
+"hv_how_it_works_title"="كيف يعمل";
+"hv_how_it_works_1"="المؤثرات البصرية للتحرك بداخل نفق تريح و توتر تكيف العين بإستخدام نموذج دوري.";
+"hv_how_it_works_2"="الرسوم المتحركة للمربعات و المعين الهندسي تدرب عضلات العين. قد تشعر بان عينيك تتقارب و تتباعد بينما تشاهد";
+"hv_how_it_works_3"="توهم سطح المياه يريح تكيف العين. عضلات مقلة العين الخارجية تتدرب عندما تلحق العينين الحركات السلسة للموجة.";
+"hv_how_it_works_4"="تكيف العين هو قدرتنا على التركيز على شئ بغض النظر عن المسافة التي تفصلنا عنه.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="مبروك! لقد اتمتت التمرين.";
+"afv_you_earned"="لقد أحرزت";
+"afv_you_have"="مجموعك هو";
+"afv_home"="البيت";
+
+//  ERR – Errors
+
+"err_template"="حدث خطأ №٪ د.";
+"err_unknown"=" خطأ غير معروف";

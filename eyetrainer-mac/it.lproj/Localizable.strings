@@ -1,0 +1,105 @@
+
+//   APP - Application-level localization strings
+
+"app_name"="100% Vision";
+"app_share_results"="Condividi risultati";
+"app_on_twitter"="su Twitter";
+"app_on_facebook"="su Facebook ";
+"app_tweet"="Completamento attuale ";
+"app_facebook"="Completamento attuale ";
+"app_sharing_reward"="0,10%";
+"app_points"="%";
+"app_point"="%";
+"app_days"="giorni";
+"app_day"="giorno";
+"app_days_234_ru"="";
+"app_notification_today"="È il tempo di iniziare una nuova sessione";
+
+//   AC – App Common
+
+"ac_cancel"="Cancel";
+
+//   MV - MainViewController
+
+"mv_start"="Inizio";
+"mv_session"="sessione";
+"mv_help"="Guida all'utilizzo";
+"mv_look_after"="Prenditi cura giornalmente della tua vista e raggiungi il 100% ";
+"mv_reach_100"="Ottimo lavoro! Hai raggiunto il 100% ";
+"mv_today"="Oggi ";
+"mv_history_app_launch"="Avvio app ";
+"mv_history_share_on_twitter"="Condividere su Twitter ";
+"mv_history_share_on_facebook"="Condivisione su facebook ";
+"mv_history_finishing_session"="Chiusura sessione";
+"mv_history_skipped"="Esercizi di Skip";
+"mv_hint_help"="Tocca qui per verificare";
+"mv_feedback"="Feedback";
+"mv_reminder"="Promemoria";
+"mv_trial_left"="Periodo di prova:\n%s rimasta";
+"mv_trial_expired"="Compra la versione completa. \nLa salute per i tuoi occhi a soli";
+"mv_trial_get_full"="Comprare";
+"mv_requesting_product"="Collegamento all’App Store.";
+"mv_processing_purchase"="Richiesta del prodotto dall’App Store.";
+"mv_restoring_transaction"="Recupero delle operazioni  nell’App Store.";
+"mv_product_request_failed"="Impossibile connettersi all’App Store.";
+"mv_purchase_successful"="Grazie per aver acquistato la versione completa di 100% Vision!";
+"mv_purchases_unaviable"="Questo dispositivo non è configurato per fare acquisti.";
+"mv_network_unaviable"="Collegarsi ad Internet per guardare il video.";
+"mv_purchase_app"="Puoi provare l'applicazione gratis per un giorno. Hai avvertito il suo effetto? Compra la versione completa per continuare ad usufruirne e mantenere sani i tuoi occhi";
+"mv_restore_purchase"="Restore purchase";
+"mv_restoring_purchases"="Restoring purchases...";
+"mv_restore_successful"="Purchase has been successfully restored!";
+"mv_restore_redeem"="Restore/Redeem";
+"mv_enter_redeem_code"="Enter your code:";
+"mv_redeem_purchase"="Redeem using code";
+"mv_verifying_code"="Verifying …";
+"mv_code_invalid"="Code is incorrect or already used.";
+"mv_no_connection"="No internet connection.";
+"mv_server_down"="No connection to the server. Try again later.";
+"mv_application_redeemed"="Congrats! Code is successfully activated.";
+"mv_invalid_response"="System error. Please contact our support using 'Feedback' button";
+"mv_response_expired"="Request has expired. Retry?";
+"mv_retry"="Retry";
+"mv_redeem"="Redeem";
+
+//   HV - HelpViewController
+
+"hv_video"="Video.";
+"hv_close"="Chiudi";
+"hv_title"="Guida all'utilizzo";
+"hv_info"="L'app \"100% Vision\" normalizza l'adattamento dell'occhio (la nostra capacità di focalizzare su un oggetto, a prescindere dalla sua distanza da noi). Gli esercizi utilizzati nel programma eliminano l'affaticamento degli occhi. L'applicazione è raccomandata per la prevenzione della miopia e presbiopia (ipo e ipermitropia) e adattamento e relax per le persone che lavorano con display video.";
+"hv_pose"="Si sieda\ncomodamente";
+"hv_remove_glasses"="togli gli occhiali\no le lenti";
+"hv_ipad_one"="Tieni l'Mac al livello dei tuoi occhi ";
+"hv_ipad_two"="80-100 cm";
+"hv_ipad_three"="lontano";
+"hv_button_one"="Premi";
+"hv_button_two"="start";
+"hv_button_three"="ogni sessione dura circa\n5 minuti";
+"hv_eyes"="Non fissare lo schermo. Rilassa i tuoi occhi.\nSe lo schermo è troppo luminoso si consiglia di andare su Impostazioni e regolare la luminosità adeguatamente.";
+"hv_disclaimer_title"="Disclaimer";
+"hv_disclaimer"="L'impatto dei cambiamenti dell'adattamento dell'occhio diminuisce entro 1-1,5 mesi dopo la cessazione degli esercizi.";
+"hv_best_result"="Per miglioramenti continui assicurarsi di praticare quotidianamente.";
+"hv_restrictions"="Se si verificano effetti negativi - smettere di utilizzare l'app. Non utilizzare l'app se si soffre di spasmi neurogenici persistenti o cronici e/o se avete mai avuto convulsioni epilettiformi. ";
+"hv_how_it_works_title"="Come funziona";
+"hv_how_it_works_1"="Effetto visivo di muoversi all'interno del tunnel rilassa l'adattamento degli occhi attraverso uno schema periodico.";
+"hv_how_it_works_2"="Animazione a quadrati e rombi allena I muscoli oculari. Potresti sentire i tuoi occhi convergere e divergere mentre guardi.";
+"hv_how_it_works_3"="Illusione ottica della superficie dell'acqua rilassa l'adattamento dell'occhio. I muscoli estraoculari si stanno \"riscaldando\" quando l'occhio segue movimenti leggeri dell'onda.";
+"hv_how_it_works_4"="L'adattamento dell'occhio è la nostra capacità di mettere a fuoco su un oggetto a prescindere dalla sua distanza da noi.";
+
+//   APV - AnimationPausedViewController
+
+"apv_continue"="";
+"apv_stop"="";
+
+//   AFV - AnimationFinishedViewController
+
+"afv_congrats"="Congratulazioni!\nAvete completato l'esercizio.";
+"afv_you_earned"="Hai totalizzato";
+"afv_you_have"="Il totale è";
+"afv_home"="Iniziale";
+
+//  ERR – Errors
+
+"err_template"="Si è verificato un errore. №%d.";
+"err_unknown"="Errore sconosciuto.";

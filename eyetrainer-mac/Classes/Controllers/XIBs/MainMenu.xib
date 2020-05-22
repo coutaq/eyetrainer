@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="494" id="495"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="100% Vision" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <rect key="contentRect" x="335" y="0.0" width="800" height="600"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <view key="contentView" id="372">
+                <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <box autoresizesSubviews="NO" boxType="custom" borderType="none" title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="tPt-T3-hVE">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                        <view key="contentView" id="4a9-tO-FxF">
+                            <rect key="frame" x="0.0" y="0.0" width="800" height="600"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </view>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                    </box>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tPt-T3-hVE" firstAttribute="top" secondItem="372" secondAttribute="top" id="aBQ-ds-OUt"/>
+                    <constraint firstAttribute="bottom" secondItem="tPt-T3-hVE" secondAttribute="bottom" id="nAl-91-J0h"/>
+                    <constraint firstItem="tPt-T3-hVE" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="p8Z-Pg-uTV"/>
+                    <constraint firstAttribute="trailing" secondItem="tPt-T3-hVE" secondAttribute="trailing" id="z4X-mp-FN9"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="DpU-b2-h0E" id="KmQ-gN-beL"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="147"/>
+        </window>
+        <customObject id="494" customClass="AppDelegate">
+            <connections>
+                <outlet property="mainWindowController" destination="DpU-b2-h0E" id="1HY-LW-DOJ"/>
+            </connections>
+        </customObject>
+        <customObject id="420" customClass="NSFontManager"/>
+        <customObject id="DpU-b2-h0E" customClass="MainWindowController">
+            <connections>
+                <outlet property="window" destination="371" id="ZOt-nq-PBR"/>
+            </connections>
+        </customObject>
+    </objects>
+</document>
